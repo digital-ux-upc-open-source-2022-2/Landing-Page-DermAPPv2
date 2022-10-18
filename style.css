@@ -283,3 +283,72 @@ button:hover{
     padding: 20px;
     text-align: justify;
 }
+
+/*Plans & Pricing*/
+
+.price{
+    margin-top: 100px;
+    text-align: center;
+}
+.price-table{
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+}
+.price-element{
+    background-color: var(--bronze);
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    width: 330px;
+    padding: 40px;
+}
+.plan-name{
+    color: var(--white);
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+.plan-price{
+    font-size: 2.0rem;
+    color: var(--white);
+}
+.plan-items{
+    margin-top: 35px;
+    display: grid;
+    gap: 1em;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: var(--white);
+}
+
+.price-element--best{
+    background-color: var(--bronze);
+}
+.price-element--best h4{
+    color: var(--white);
+}
+.price-element--best .plan-name{
+    color: var(--white);
+}
+.price-element--best .plan-items{
+    color: var(--white);
+}
+
+.subtitle1{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.clinics h3{
+    text-align: center;
+    color: var(--bronze);
+}
+.clinics-img{
+    justify-items: center;
+    margin: 0 auto;
+}
