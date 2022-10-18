@@ -206,3 +206,80 @@ button:hover{
     overflow:hidden;
     z-index: 20;
 }
+
+/*Why Us*/
+.whyUs{
+    background-color: var(--sand);
+    transition: 0.5s;
+    overflow: hidden;
+    height: 100%;
+    padding: 50px;
+}
+
+.whyUs > p{
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--brown);
+    text-align: center;
+}
+.abouttitle{
+    margin-top: 10px;
+}
+.about-main{
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    text-align: justify;
+}
+.aboutimages{
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.about__img{
+    width: 200px;
+    height: 200px;
+}
+.card-text .person{
+    margin-left: auto;
+}
+.comment{
+    padding-top: 80px;
+}
+
+.comment .title{
+    text-align: center;
+}
+.card h3{
+    margin-top: 70px;
+    text-align: center;
+}
+.card-body{
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+}
+.card-text{
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: var(--white);
+    border-radius: 25px;
+    padding: 20px;
+    text-align: justify;
+}
