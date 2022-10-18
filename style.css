@@ -1,118 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
-
-:root{
-    --black: #000000;
-    --grey: #444444;
-    --blue: #4FC1E2;
-    --brown: #936D5E;
-    --bronze: #B49587;
-    --sand: #E3D3CA;
-    --white: #ffffff;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    background: var(--white);
-    overflow-x: hidden;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: normal;
-    font-size:16px;
-}
-
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
-}
-h1 {
-    font-weight: 800;
-    font-size: 50px;
-}
-h2 {
-    font-weight: 700;
-    font-size: 40px;
-    color: var(--brown);
-    text-align: center;
-}
-h3 {
-    font-weight: 600;
-    font-size: 30px;
-}
-h4{
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
-    font-size: 30px;
-}
-button{
-    height: 40px;
-    width: auto;
-    padding: 0px 30px;
-    border-radius: 12px;
-    border: none;
-    outline: none;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    background-color: var(--brown);
-    color: white;
-    cursor:pointer;
-    transition: 0.5s;
-}
-/*Navigation Bar*/
-#header{
+/*Welcome*/
+.HeroImg{
     position: relative;
     width: 100%;
+    height: 100vh;
+    background: url("img/HeroImage.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
-.logo-img{
-    margin-left: 30px;
-    height: 60px;
-    width:auto;
-}
-.menu{
-    position: fixed;
-    top: 0;
-    left: 0;
+.HeroImg .welcome{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
-    height: 90px;
-    background-color: white;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.HeroImg .welcome hr{
+    width: 590px;
+    height: 2px;
+    background: var(--white);
+    border: none;
+    margin-top: 5px;
+}
+.HeroImg .welcome{
+    font-size: 20px;
+    color: var(--white);
+    margin-top: 20px
+}
+.HeroImg .welcome >button{
+    margin-top: 20px;
+    padding: 0px 50px;
+}
+
+/*What is DermApp*/
+.about{
+    width: 100%;
+    text-align: center;
+}
+
+.about h2{
+    margin-top: 100px;
+}
+
+.about_container{
+    max-width: 1500px;
+    margin:auto;
+    padding: 40px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    z-index: 9999;
-    box-shadow: 1px 1px 30px -5px #20202049;
-}
-.menu .logo-box{
-    margin-left: 20px;
-}
-.menu .list-container{
-    margin-right: 20px;
-}
-.menu .list-container .lists{
-    display: flex;
-    margin-top: 20px;
-}
-.menu .list-container .lists li{
-    list-style: none;
-}
-.menu .list-container .lists li a{
-    text-decoration: none;
-    margin: 0px 10px;
-    height: 40px;
-    padding: 10px;
-    color: var(--black);
-    border-radius: 24px;
-    font-size:  16px;
-    transition: 0.3s;
-}
-.menu .list-container .lists > button{
     position: relative;
-    bottom: 10px;
 }
 
-.btn-menu > .fa-bars{
-    display: none;
+.about_info{
+    max-width: 500px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about_line{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.about_line p{
+    margin: 10px;
+    text-align: justify;
+}
+
+.about_img{
+    max-height: 600px;
+    display: flex;
+    width: auto;
+    margin:auto;
+    overflow:hidden;
+    z-index: 20;
 }
