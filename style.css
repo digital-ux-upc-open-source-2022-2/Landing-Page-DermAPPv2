@@ -9,6 +9,11 @@
     --sand: #E3D3CA;
     --white: #ffffff;
 }
+a{
+text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
 
 *{
     margin: 0;
