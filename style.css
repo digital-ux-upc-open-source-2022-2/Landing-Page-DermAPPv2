@@ -275,6 +275,7 @@ button:hover{
     gap: 1em;
     overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
 }
 .card-text{
     display: grid;
